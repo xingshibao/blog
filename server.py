@@ -80,6 +80,7 @@ class User(Model):
     
 user = User(uid = 1, username = 'eric', password = 'password')
 user.save()
+user.save()
 
 
 
